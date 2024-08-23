@@ -1,0 +1,39 @@
+header {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.quote-container {
+    width: 31%;
+    margin: 0px auto;
+    padding: 30px 35px;
+    border-radius: 15px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.quote-container p {
+    font-size: 1.3rem;
+    text-align: left;
+    line-height: 30px;
+}
+
+.quote-container button {
+    transform: translateX(278px);
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #5347FF;
+    border: none;
+    border-radius: 20px;
+    outline: 2px solid #5347FF;
+    transition: background-color 0.3s;
+}
+
+.quote-container button:hover{
+    cursor: pointer;
+    background-color: #dddd;
+}
+
+.quote-container h3 {
+    color: #F0583E;
+}
+
