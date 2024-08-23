@@ -37,3 +37,54 @@ header {
     color: #F0583E;
 }
 
+
+
+
+
+
+@media screen and (max-width:639px) {
+    .quote-container{
+        width: 76%;
+        padding: 20px 36px;
+    }
+
+    .quote-container button{
+        transform: translateX(125px);
+    }
+}
+
+
+@media screen and (min-width: 640px) and (max-width:767px) {
+    .quote-container{
+        width: 75%;
+        padding: 20px 36px;
+    }
+
+    .quote-container button{
+        transform: translateX(320px);
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .quote-container{
+        width: 65%;
+        padding: 25px 36px;
+    }
+
+    .quote-container button{
+        transform: translateX(355px);
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width: 1279px) {
+    .quote-container{
+        width: 64%;
+        padding: 25px 36px;
+    }
+
+    .quote-container button{
+        transform: translateX(510px);
+    }
+}
